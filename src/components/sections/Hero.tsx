@@ -11,7 +11,6 @@ const Hero = () => {
     const interval = setInterval(() => {
       setCurrentSkillIndex((prevIndex) => (prevIndex + 1) % skills.length);
     }, 3000);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -19,6 +18,16 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
+
+          {/* Profile Image */}
+          <div className="mb-6">
+            <img
+              src="/Images/1.jpg" // <-- Update this to your image path
+              alt="image"
+              className="w-40 h-40 rounded-full border-4 border-blue-500 shadow-lg object-cover mx-auto"
+            />
+          </div>
+
           <p className="text-blue-600 dark:text-blue-400 font-medium text-lg mb-4 animate-fadeIn">
             Hello, I'm
           </p>
@@ -49,11 +58,6 @@ const Hero = () => {
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute w-96 h-96 rounded-full bg-blue-200 dark:bg-blue-900/20 opacity-30 top-20 -left-20 blur-3xl"></div>
         <div className="absolute w-96 h-96 rounded-full bg-purple-200 dark:bg-purple-900/20 opacity-30 bottom-10 -right-20 blur-3xl"></div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ArrowDown className="text-gray-500 dark:text-gray-400" size={32} />
       </div>
     </section>
   );

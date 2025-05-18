@@ -34,7 +34,7 @@ const Experience = () => {
       title: "Mobile App Developer",
       organization: "App Innovations Inc.",
       location: "Remote",
-      period: "2022 - 2023",
+      period: "2023 - Present",
       description: [
         "Built cross-platform mobile applications using Flutter",
         "Created intuitive user interfaces following material design principles",
@@ -48,7 +48,7 @@ const Experience = () => {
       title: "WordPress Developer",
       organization: "Digital Solutions Agency",
       location: "Remote",
-      period: "2021 - 2022",
+      period: "2023 - Present",
       description: [
         "Designed and developed custom WordPress websites for various clients",
         "Implemented e-commerce functionality using WooCommerce",
@@ -62,7 +62,7 @@ const Experience = () => {
       title: "Freelance Web Developer",
       organization: "Self-employed",
       location: "Remote",
-      period: "2020 - 2021",
+      period: "2023 - Present",
       description: [
         "Developed custom websites for small businesses and individuals",
         "Created responsive layouts and user interfaces",

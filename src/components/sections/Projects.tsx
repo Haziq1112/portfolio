@@ -41,8 +41,7 @@ const Projects = () => {
       description: "Modern, responsive portfolio website designed to showcase projects and skills.",
       image: "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Haziq1112/portfolio.git",
       featured: false
     },
 
